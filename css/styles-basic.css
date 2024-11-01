@@ -1,0 +1,29 @@
+.tabs-container nav ul li a {
+  padding: 0 .5em;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.tabs-container nav ul li a span {
+  font-family: inherit;
+}
+
+.tabs-container #tabs nav li.tab-current a {
+  color: #000000;
+}
+
+.tabs-container nav ul li.tab-current {
+  border: 1px solid #000000;
+  border-bottom: none;
+  box-shadow: none
+}
+
+.tabs-container #tabs nav li.tab-current:before, 
+.tabs-container #tabs nav li.tab-current:after {
+  background: #000000;
+}
+
+.tabs-container .content section {
+  padding: 0 1em;
+}
+
